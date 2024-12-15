@@ -24,6 +24,12 @@
 		</dependency>
 		<dependency>
 			<groupId>com.intuit.karate</groupId>
+			<artifactId>karate-apache</artifactId>
+			<version>0.9.6</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.intuit.karate</groupId>
 			<artifactId>karate-junit5</artifactId>
 			<version>${karate.version}</version>
 			<scope>test</scope>
@@ -77,7 +83,7 @@
 					
 			       <configuration> 
 				<includes>
-				<include>**/ParallelTestRunner.java</include> 
+				<include>**/*.java</include> 
 				</includes> 
 				</configuration>
 				
@@ -109,7 +115,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	<profiles>
+<!--	<profiles>
 		<profile>
 			<id>staging</id>
 			<activation>
@@ -131,6 +137,6 @@
 				<karate.profile>prod</karate.profile>
 			</properties>
 		</profile>
-	</profiles>
+	</profiles>	-->
 
 </project>
