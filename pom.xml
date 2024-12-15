@@ -18,12 +18,6 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.intuit.karate</groupId>
-			<artifactId>karate-core</artifactId>
-			<version>${karate.version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.intuit.karate</groupId>
 			<artifactId>karate-apache</artifactId>
 			<version>${karate.version}</version>
 			<scope>test</scope>
@@ -34,16 +28,6 @@
 			<version>${karate.version}</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-    		<groupId>org.openjdk.nashorn</groupId>
-    		<artifactId>nashorn-core</artifactId>
-  		  <version>15.3</version>
-		</dependency>
-		<dependency>
-    <groupId>org.graalvm.js</groupId>
-    <artifactId>graaljs</artifactId>
-    <version>22.3.0</version>
-</dependency>
 		<dependency>
 			<!-- https://github.com/damianszczepanik/cucumber-reporting -->
 			<groupId>net.masterthought</groupId>
@@ -92,7 +76,6 @@
 		<!--   To include specific file in the POM.xml with system properties -->
 					
 			       <configuration> 
-				         <argLine>--add-modules=jdk.scripting.nashorn</argLine>
 				<includes>
 				<include>**/POSTTestRunner.java</include> 
 				</includes> 
