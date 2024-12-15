@@ -11,7 +11,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>17</java.version>
-		<maven.compiler.version>3.8.1</maven.compiler.version>
+		<maven.compiler.version>3.6.0</maven.compiler.version>
 		<karate.version>0.9.6</karate.version>
 	</properties>
 
@@ -47,12 +47,6 @@
 			<version>5.11.1</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-  <groupId>org.projectlombok</groupId>
-  <artifactId>lombok</artifactId>
-  <version>1.18.20</version>
-  <scope>provided</scope>
-</dependency>
 	</dependencies>
 
 	<build>
