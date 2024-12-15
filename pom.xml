@@ -81,11 +81,11 @@
 				<version>2.22.2</version>
 		<!--   To include specific file in the POM.xml with system properties -->
 					
-		<!--    <configuration> 
+			       <configuration> 
 				<includes>
 				<include>**/ParallelBuilder.java</include> 
 				</includes> 
-				</configuration> -->
+				</configuration>
 				
 		<!--	<configuration> 
 				<includes>
@@ -102,7 +102,7 @@
 				Karate-Config.js 
 					************************ -->
 					
-				<configuration>
+			<!--	<configuration>
 					<includes>
 						<include>**/ParallelBuilderWithCucumberReport.java</include>
 					</includes>
@@ -110,7 +110,7 @@
 					<systemProperties>
 						<karate.env>${karate.profile}</karate.env>
 					</systemProperties>
-				</configuration>	
+				</configuration>	-->
 				
 			</plugin>
 		</plugins>
