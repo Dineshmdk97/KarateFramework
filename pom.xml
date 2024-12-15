@@ -15,6 +15,13 @@
 		<karate.version>1.4.0</karate.version>
 	</properties>
 
+	<repositories>
+    <repository>
+        <id>karate-repo</id>
+        <url>https://mvnrepository.com/artifact/com.intuit.karate</url>
+    </repository>
+</repositories>
+	
 	<dependencies>
 		<dependency>
 			<groupId>com.intuit.karate</groupId>
