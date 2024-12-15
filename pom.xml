@@ -77,7 +77,7 @@
 					
 			       <configuration> 
 				<includes>
-				<include>**/ParallelTestBuilder.java</include> 
+				<include>**/ParallelTestRunner.java</include> 
 				</includes> 
 				</configuration>
 				
