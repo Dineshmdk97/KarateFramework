@@ -102,7 +102,7 @@
 				Karate-Config.js 
 					************************ -->
 					
-		<!--		<configuration>
+				<configuration>
 					<includes>
 						<include>**/ParallelBuilderWithCucumberReport.java</include>
 					</includes>
@@ -110,7 +110,7 @@
 					<systemProperties>
 						<karate.env>${karate.profile}</karate.env>
 					</systemProperties>
-				</configuration>	-->
+				</configuration>	
 				
 			</plugin>
 		</plugins>
