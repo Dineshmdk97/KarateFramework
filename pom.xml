@@ -40,6 +40,11 @@
   		  <version>15.3</version>
 		</dependency>
 		<dependency>
+    <groupId>org.graalvm.js</groupId>
+    <artifactId>graaljs</artifactId>
+    <version>22.3.0</version>
+</dependency>
+		<dependency>
 			<!-- https://github.com/damianszczepanik/cucumber-reporting -->
 			<groupId>net.masterthought</groupId>
 			<artifactId>cucumber-reporting</artifactId>
@@ -87,6 +92,7 @@
 		<!--   To include specific file in the POM.xml with system properties -->
 					
 			       <configuration> 
+				         <argLine>--add-modules=jdk.scripting.nashorn</argLine>
 				<includes>
 				<include>**/POSTTestRunner.java</include> 
 				</includes> 
