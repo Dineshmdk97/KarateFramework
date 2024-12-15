@@ -11,7 +11,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>17</java.version>
-		<maven.compiler.version>3.9.6</maven.compiler.version>
+		<maven.compiler.version>3.9.1</maven.compiler.version>
 		<karate.version>0.9.6</karate.version>
 	</properties>
 
@@ -69,9 +69,6 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>${maven.compiler.version}</version>
 				<configuration>
-					 <compilerArgs>
-         					 <arg>--add-exports=jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
-       					 </compilerArgs>
 					<encoding>UTF-8</encoding>
 					<source>${java.version}</source>
 					<target>${java.version}</target>
