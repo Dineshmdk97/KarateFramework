@@ -81,9 +81,15 @@
 				<version>2.22.2</version>
 		<!--   To include specific file in the POM.xml with system properties -->
 					
-			       <configuration> 
+		<!--	       <configuration> 
 				<includes>
 				<include>**/*.java</include> 
+				</includes> 
+				</configuration>	-->
+				
+				<configuration> 
+				<includes>
+				<include>**/ParallelTestBuilder.java</include> 
 				</includes> 
 				</configuration>
 				
