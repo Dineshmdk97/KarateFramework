@@ -18,7 +18,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.intuit.karate</groupId>
-			<artifactId>karate-core</artifactId>
+			<artifactId>karate-apache</artifactId>
 			<version>${karate.version}</version>
 			<scope>test</scope>
 		</dependency>
